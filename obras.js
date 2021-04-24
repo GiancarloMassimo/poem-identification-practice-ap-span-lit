@@ -825,7 +825,7 @@ function generateSnippet() {
     let poem = poems[poemIndex]
 
     if (snippetSize > poem.length) {
-        snippetSize = poems.length
+        snippetSize = poem.length
     }
 
     let start = Math.floor(Math.random() * (poem.length - snippetSize));
